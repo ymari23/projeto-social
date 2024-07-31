@@ -26,8 +26,7 @@ section {
 iframe {
     height: 469px ;
     width: 270px;
-    display: block;
-    margin: auto;
+    
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
