@@ -41,6 +41,14 @@ iframe {
     width: 50px;
     display: block;
     padding: 2px;   
+    box-shadow: 2px 2px 2px rgb(0, 0, 0.4);
+    box-sizing: border-box;
+}
+.social:hover {
+    margin: 1px; 
+    transition: 0.5s;
+    border-color: white;
+    border: 5px;
 }
 nav {
     position: absolute;
