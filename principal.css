@@ -24,16 +24,16 @@ section {
 }
 
 iframe {
-    height: 469px ;
-    width: 270px;
+    height: 478px ;
+    width: 276px;
     
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
-    
+    left: 50%; 
     
 }
+
 
 .social {
     border-radius: 40px;
@@ -41,14 +41,16 @@ iframe {
     width: 50px;
     display: block;
     padding: 2px;   
-    box-shadow: 2px 2px 2px rgb(0, 0, 0.4);
-    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0.400);
+    box-sizing: border-box, solid; 
+    margin: 10px;
+    
 }
 .social:hover {
-    margin: 1px; 
-    transition: 0.5s;
-    border-color: white;
-    border: 5px;
+    transform: translate(-3px, -3px);
+    transition: transform 1s;
+    border: 2px solid white;
+    
 }
 nav {
     position: absolute;
